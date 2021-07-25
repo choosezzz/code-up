@@ -11,7 +11,7 @@ import java.util.Stack;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  *
  */
-class CQueue {
+class Stack2Queue {
 
     /**
      * 入队栈
@@ -22,7 +22,7 @@ class CQueue {
      */
     private Stack<Integer> stack2;
 
-    public CQueue() {
+    public Stack2Queue() {
         stack1 = new Stack<>();;
         stack2 = new Stack<>();
     }
